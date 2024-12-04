@@ -1,0 +1,443 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1B2F3B;
+    color: #fff;
+  }
+  
+  /* Navigation Bar */
+  header {
+    background-color: #09141B;
+    padding: 10px 0;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .nav-bar li {
+    margin: 0 15px;
+  }
+  
+  .nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-bar a:hover {
+    color: #09141B;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: -20px; /* Ajusta este valor según sea necesario */
+  }
+  
+  .left {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  }
+  
+/* Redes sociales */
+.social-links {
+    position: relative;
+    left: 10px; /* Posición fija en la izquierda */
+    top: 20%; /* Centrado verticalmente */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaciado entre los íconos */
+  }
+  
+  .social-links a img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links a img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Ajustar separación con la foto */
+  .content {
+    display: flex;
+    gap: 70px; /* Aumentar el espacio entre redes sociales y la foto */
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  
+  .profile-pic {
+    width: 250px; /* Tamaño ajustado */
+    height: 250px; /* Tamaño ajustado */
+    border: 4px solid #325660;
+    object-fit: cover;
+    border-radius: 12px; /* Sin bordes redondeados */
+  }
+  
+  
+  .right {
+    text-align: left;
+  }
+  
+  .right h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .right h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  
+  .download-cv {
+    background-color: #09141B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-cv:hover {
+    background-color: #325660;
+  }
+
+
+  /* Estilos para la sección "Sobre Mí" */
+/* Estilos para la sección "Sobre Mí" más grande */
+#perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px; /* Aumenta el espacio alrededor */
+    background-color: #1b2f3b; /* Color de fondo */
+    color: #fff;
+    
+  }
+  
+  .profile-content {
+    display: flex;
+    gap: 70px; /* Aumenta la separación entre la imagen y el texto */
+    align-items: end;
+    max-width: 1400px; /* Aumenta el ancho máximo de la sección */
+    margin: 0 auto;
+  }
+  
+  .profile-image {
+    margin-left: 50px; /* Mueve la imagen hacia la derecha */
+  }
+  
+  .profile-image img {
+    width: 120px; /* Tamaño ajustado de la imagen */
+  height: 120px;
+  object-fit: cover; /* Asegura que la imagen se vea bien */
+  border-radius: 10px; /* Bordes redondeados */
+  margin-bottom: 20px; /* Espaciado con el botón */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+  }
+  
+  .profile-text {
+    flex: 1; /* Ocupa el espacio restante de forma flexible */
+  }
+  
+  .profile-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem; /* Aumenta el tamaño del título */
+    margin-bottom: 20px;
+    color: #6bb3c8; /* Color principal para el título */
+  }
+  
+  .profile-text p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem; /* Tamaño del texto */
+    line-height: 2; /* Mayor separación entre líneas */
+    margin-bottom: 20px;
+    color: #d6e6ed; /* Color más claro para el texto */
+  }
+  
+  .profile-text strong {
+    font-weight: bold;
+    color: #fff; /* Resalta el nombre con blanco */
+  }
+  
+  
+  
+  .profile-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #6bb3c8; /* Color principal para el título */
+  }
+  
+  .profile-text p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #d6e6ed; /* Color más claro para el texto */
+  }
+  
+  .profile-text strong {
+    font-weight: bold;
+    color: #fff; /* Resaltar el nombre en blanco */
+  }
+  
+
+  /* Estilos Generales de la Sección */
+.section {
+    padding: 60px;
+    background-color: #1b2f3b; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+  }
+  
+  .section-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #6bb3c8; /* Color principal del título */
+  }
+  
+  /* Contenedor de Tarjetas */
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+  
+  /* Estilo de las Tarjetas */
+  .skill-card {
+    background-color: #243b4a; /* Fondo de las tarjetas */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Sombra */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-10px); /* Levantar la tarjeta al pasar el cursor */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6); /* Sombra más pronunciada */
+  }
+  
+  /* Estilo de los Íconos */
+  .skill-card img {
+    width: 80px; /* Tamaño del ícono */
+    height: auto;
+    margin-bottom: 15px; /* Espaciado debajo del ícono */
+  }
+  
+  /* Estilo del Texto */
+  .skill-card p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d6e6ed; /* Color del texto */
+    margin: 0; /* Quitar márgenes adicionales */
+  }
+
+  
+  /* Sección de Portafolio */
+/* Sección de Portafolio */
+.portfolio-section {
+    padding: 60px;
+    background-color: #1b2f3b; /* Fondo oscuro */
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .portfolio-image {
+    flex: 1 1 300px; /* Imagen ocupa espacio proporcional */
+    max-width: 300px; /* Limita el ancho máximo */
+    position: relative;
+  }
+  
+  .portfolio-image img {
+    width: 100%; /* Imagen escalada automáticamente */
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+  }
+  
+  .portfolio-text {
+    flex: 2 1 400px; /* Texto ocupa más espacio proporcional */
+    max-width: 600px;
+  }
+  
+  .portfolio-text h2 {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #6bb3c8; /* Color del título */
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #d6e6ed; /* Texto gris claro */
+  }
+  
+
+
+  .section {
+    padding: 60px 20px;
+    background-color: #0e1926;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #f2f2f2;
+  }
+  
+  .estudios-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .estudios-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .estudios-text h3 {
+    font-size: 1.8rem;
+    color: #f2f2f2;
+    margin-bottom: 15px;
+  }
+  
+  .estudios-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #dcdcdc;
+  }
+  
+  .estudios-icon {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .estudios-icon img {
+    max-width: 150px;
+    height: auto;
+    filter: brightness(0) invert(1); /* Hace que el icono se vea blanco */
+  }
+
+  
+
+  .section {
+  padding: 60px 20px;
+  background-color: #1B2F3B;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #f2f2f2;
+}
+
+.hobbies-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hobby {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  margin: 10px;
+}
+
+.hobby-icon img {
+  max-width: 60px;
+  height: auto;
+  filter: brightness(0) invert(1); /* Hace que los iconos sean blancos */
+  margin-bottom: 15px;
+}
+
+.hobby h3 {
+  font-size: 1.5rem;
+  color: #f2f2f2;
+  margin-bottom: 10px;
+}
+
+.hobby p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #dcdcdc;
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #1c2833;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+  
+  
+
+  
